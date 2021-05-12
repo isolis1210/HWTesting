@@ -10,4 +10,7 @@ def myfunc(x):
         y = -x
     return 0
 
-
+# $ coverage run
+# $ coverage report
+    # report said 100%
+    # 8/8
