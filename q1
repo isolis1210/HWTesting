@@ -1,4 +1,0 @@
-def someSort(arr):
-	n = len(arr)+1
-
-	for 
