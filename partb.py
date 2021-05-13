@@ -10,7 +10,10 @@ def myfunc(x):
         y = -x
     return 0
 
-# $ coverage run
+# $ coverage run partb.py
 # $ coverage report
-    # report said 100%
-    # 8/8
+    ''' Stmts 10
+        Miss 9
+        Cover 10%
+    '''
+# 1/10 maximum statement coverage
