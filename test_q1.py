@@ -1,5 +1,5 @@
 def test_someSort(arr):
-    n = len(arr) 
+    n = len(arr) # Remove the +1 here because it would cause the range to be too large
 
     for i in range(n):
         swapped = True
