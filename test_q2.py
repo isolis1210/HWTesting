@@ -4,9 +4,9 @@ def test_printGraph(data):
         t = []
         for x in range(i):
             print('x', end='')
-            t.append('x')
+            t.append('x') # x should be within quotes, empty quotes would print empty
         print()
-        out.extend([t])
+        out.extend([t]) # if the output t is a range of i as x, each range should be within brackets
     return out
 
 #unit test 1
