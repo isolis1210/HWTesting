@@ -1,6 +1,4 @@
-# Unsure of what to assert for this test
-
-def test_printGraph():
+def test_printGraph(data):
     out=[]
     for i in data:
         t = []
@@ -11,6 +9,12 @@ def test_printGraph():
         out.extend([t])
     return out
 
-#data = [1,2,3]
-assert out == [['x'], ['x', 'x'], ['x', 'x', 'x']]
+data = [1,2,3]
+output = test_printGraph(data)
+print(output)
+assert output == [['x'], ['x', 'x'], ['x', 'x', 'x']]
 
+data2 = [3,4,5]
+output = test_printGraph(data2)
+print(output)
+assert output == [['x','x','x'], ['x','x','x','x'], ['x','x','x','x','x']]
